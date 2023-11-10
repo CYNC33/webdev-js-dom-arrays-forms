@@ -85,6 +85,9 @@ nav ul li a {
   background-color: #163b59;
   color: #fff;
 }
+.whiteBack {
+  background-color: #fff;
+}
 .error {
   color: #be1c26;
   font-weight: bold;
