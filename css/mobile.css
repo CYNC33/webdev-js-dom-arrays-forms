@@ -85,8 +85,11 @@ nav ul li a {
   background-color: #163b59;
   color: #fff;
 }
-.whiteBack {
-  background-color: #fff;
+.yellowBack {
+  background-color: #FFF000;
+}
+.cyanBack {
+  background-color: #03fce8;
 }
 .error {
   color: #be1c26;

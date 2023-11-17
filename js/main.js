@@ -39,12 +39,20 @@
         document.querySelector("body").setAttribute("class", "greenBack");
     })
 
-    
+       document.querySelector(".yellow").addEventListener("click", function(ev){
+        document.querySelector("body").setAttribute("class", "yellowBack");
+    })
+
+           document.querySelector(".cyan").addEventListener("click", function(ev){
+        document.querySelector("body").setAttribute("class", "cyanBack");
+    })
+
     document.querySelector(".reset").addEventListener("click", function(ev){
-        document.querySelector("body").removeAttribute("class");
+        document.querySelector("body").removeAttribute("class"); //resets page background colour
+        document.querySelector("nav ul li").removeAttribute("class");
     })
 
 
-    //end coding here
+    //end code here
 })()
 //Immediately Invoked Function Expression (IIFE) ^ - Function that is called immediately after it is defined
