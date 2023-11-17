@@ -70,6 +70,24 @@
         bodyElement.setAttribute("class", colourPicked) //sets the bodyElement which is the body - background as the same colour as colourPicked
     }
 
+    let imageArray = ['images/view1.jpg',
+    'images/view2.jpg',
+    'images/view3.jpg',
+    'images/view4.jpg',
+    'images/view5.jpg',
+    'images/view6.jpg'];
+
+    let imageCounter = 0;
+
+    setInterval(chgImage, 500);
+
+    function chgImage(){
+        document.
+        getElementById('myImages').
+        setAttribute('src', imageArray[imageCounter]);
+        imageCounter++;
+    }
+
 
     //end code here
 })()
