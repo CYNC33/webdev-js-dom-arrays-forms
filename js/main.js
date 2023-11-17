@@ -70,22 +70,20 @@
         bodyElement.setAttribute("class", colourPicked) //sets the bodyElement which is the body - background as the same colour as colourPicked
     }
 
-    let imageArray = ['images/view1.jpg',
+    let imageArray = ['images/view1.jpg', //setting an array full of images
     'images/view2.jpg',
     'images/view3.jpg',
     'images/view4.jpg',
     'images/view5.jpg',
     'images/view6.jpg'];
 
-    let imageCounter = 0;
+    let imageCounter = 0; //setting variable as 0 so we can use it to search the indexes in the below function
 
-    setInterval(chgImage, 500);
+    setInterval(chgImage, 500); //setting interval - 500ms - using the chgImage function
 
-    function chgImage(){
-        document.
-        getElementById('myImages').
-        setAttribute('src', imageArray[imageCounter]);
-        imageCounter++;
+    function chgImage(){ //chgImage function
+        document.getElementById('myImages').setAttribute('src', imageArray[imageCounter]); //getting the elements and setting them to the image and setting it to whichever image is in that index
+        imageCounter++; //add 1 to the image counter to loop through from 0-5
     }
 
 
