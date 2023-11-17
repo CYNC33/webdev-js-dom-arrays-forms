@@ -86,7 +86,7 @@
         imageCounter++; //add 1 to the image counter to loop through from 0-5
     }
 
-
+    
     //end code here
 })()
 //Immediately Invoked Function Expression (IIFE) ^ - Function that is called immediately after it is defined
