@@ -91,6 +91,9 @@ nav ul li a {
 .cyanBack {
   background-color: #03fce8;
 }
+.pinkBack {
+  background-color: #fc03fc;
+}
 .error {
   color: #be1c26;
   font-weight: bold;

@@ -47,6 +47,10 @@
         document.querySelector("body").setAttribute("class", "cyanBack");
     })
 
+             document.querySelector(".pink").addEventListener("click", function(ev){
+        document.querySelector("body").setAttribute("class", "pinkBack");
+    })
+
     document.querySelector(".reset").addEventListener("click", function(ev){
         document.querySelector("body").removeAttribute("class"); //resets page background colour
         document.querySelector("nav ul li").removeAttribute("class");
